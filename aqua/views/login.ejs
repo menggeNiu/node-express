@@ -1,0 +1,33 @@
+<% include header %>
+<div class="page">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6" id="app-mount">
+				<section data-reactroot="">
+					<h1 class="page-header">Sign in</h1>
+					<form>
+						<fieldset>
+							<div class="form-group">
+								<label class="control-label">Username or email</label>
+								<input type="text" autocapitalize="off" class="form-control" name="username">
+								<span class="help-block"></span>
+							</div>
+							<div class="form-group">
+								<label class="control-label">Password</label>
+								<input type="password" autocapitalize="off" class="form-control" name="password">
+								<span class="help-block"></span>
+							</div>
+							<div class="form-group">
+								<button type="submit" class="btn btn-primary"><!-- react-text: 15 -->Sign in<!-- /react-text --><span class="hidden"><!-- react-text: 17 -->&nbsp;&nbsp;<!-- /react-text --><i class="fa fa-refresh fa-spin"></i></span>
+								</button>
+								<a class="btn btn-link" href="/login/forgot">Forgot your password?</a>
+							</div>
+						</fieldset>
+					</form>
+				</section>
+			</div>
+		</div>
+	</div>
+</div>
+
+<% include footer %>
